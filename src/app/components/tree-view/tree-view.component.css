@@ -1,0 +1,30 @@
+/* Стили для списка */
+.tree-view ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Стили для каждого элемента списка */
+.tree-view li {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Стили при наведении на элемент списка */
+.tree-view li:hover {
+  background-color: rgba(94, 148, 203, 0.38);
+  color: rgb(255, 255, 255);
+}
+
+.tree-view li:active {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset;
+}

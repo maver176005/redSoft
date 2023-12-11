@@ -1,0 +1,30 @@
+.glass-container {
+  background: rgba(145, 83, 83, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  margin-top: 10px;
+  background: rgba(194, 140, 140, 0.2);
+  border: none;
+  color: rgba(210, 42, 42, 0.71);
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Плавные переходы */
+  outline: none; /* Убрать контур при фокусе */
+}
+
+form button:hover {
+  background-color: rgba(224, 224, 224, 0.66);
+  color: black;
+}

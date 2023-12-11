@@ -1,0 +1,26 @@
+.list-view input[type="text"] {
+  width: 95%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  background: rgba(229, 217, 217, 0.2);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  color: black;
+
+  /* Убираем стандартные стили для Webkit-браузеров */
+  -webkit-appearance: none;
+  outline: none; /* Убираем контур при фокусе */
+}
+
+/* Стиль для плейсхолдера */
+.list-view input[type="text"]::placeholder {
+  color: rgba(66, 59, 59, 0.7);
+}
+
+/* Стиль для инпута при фокусе */
+.list-view input[type="text"]:focus {
+  border-color: rgba(145, 144, 144, 0.5);
+}

@@ -1,0 +1,11 @@
+
+<div class="browse-container">
+  <div class="tree-view-container">
+    <!-- Компонент древовидной структуры -->
+    <app-tree-view [nodes]="treeData" (nodeSelected)="onNodeSelected($event)"></app-tree-view>
+  </div>
+  <div class="list-view-container">
+    <!-- Компонент списка дочерних элементов -->
+    <app-list-view [items]="listData"></app-list-view>
+  </div>
+</div>

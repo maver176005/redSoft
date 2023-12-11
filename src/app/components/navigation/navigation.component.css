@@ -1,0 +1,32 @@
+nav {
+  margin: 20px;
+  background: rgba(45, 77, 105, 0.11); /* Полупрозрачный фон */
+  backdrop-filter: blur(10px); /* Эффект размытия */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Тень для добавления глубины */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a, nav button {
+  background: transparent;
+  border: none;
+  color: #1c1919;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+nav a:hover, nav button:hover {
+  background-color: rgba(94, 148, 203, 0.38);
+  color: rgb(255, 255, 255);
+
+}
+
+nav button {
+  outline: none;
+}

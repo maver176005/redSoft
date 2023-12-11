@@ -1,0 +1,10 @@
+
+<div class="tree-view ">
+<ul>
+  <ng-container *ngFor="let node of rootChildren">
+    <li *ngIf="node.children && node.children.length" (click)="onSelectNode(node)">
+      {{ node.name }}
+    </li>
+  </ng-container>
+</ul>
+</div>
